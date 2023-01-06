@@ -35,6 +35,7 @@ body{
     align-items: center;
     width: 90%;
     max-width: 1200px;
+    min-width: auto;
     height: 100%;
     margin: 0 auto;
 }
@@ -792,11 +793,12 @@ min-height: 100vh;
 }
 
 /*media tablet*/
-@media (max-width:768px){
+@media (max-width:768px) {
 /*header*/
     /*nav*/
     .menu__hamburguer{
         display: flex;
+        flex-wrap: wrap;
     }
 
     .menu__item{
@@ -977,7 +979,7 @@ min-height: 100vh;
     
     
     .menu__links{
-        position: absolute;
+        position: fixed;
         max-width: 400px;
         width: 100%;
         top: 70px;
@@ -992,7 +994,7 @@ min-height: 100vh;
     
     .menu__links--show{
         transform: unset;
-        width: 100%;
+        width: 80%;
     }
     
     .menu__link{
@@ -1184,14 +1186,74 @@ min-height: 100vh;
         margin-right: 30px;
         margin-left: 30px;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 50px;
     }
 
     .principio__bio2{
         margin-right: 30px;
         margin-left: 30px;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .titulo__bio1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .titulo__bio2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .texto__bio1{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio2{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio3{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio4{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+        .texto__bio5{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio6{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio7{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio8{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio9{
+        font-size: 13px;
+        text-align: justify ;
+    }
+
+    .texto__bio10{
+        font-size: 13px;
+        text-align: justify ;
     }
 
 
