@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
     <title>Patricia Husni | Master Coacht</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -13,14 +14,14 @@
     <header>
         <nav class="menu">
             <section class="menu__container">
-                <img class="menu__logo" src="../assets/img/logo-nocover-new.png" class="menu__logo"></img>
+                <a href="../index.html"><img class="menu__logo" src="../assets/img/logo-nocover-new.png" class="menu__logo" alt="logo de la empresa"></img></a>
                 <ul class="menu__links">
                     <li class="menu__item">
                         <a href="../index.html" class="menu__link">Inicio</a>
                     </li>
         
                     <li class="menu__item menu__item--show">
-                        <a href="#" class="menu__link">Sobre mi <img src="../assets/img/flecha-abajo.png" class="menu__arrow"></a>
+                        <a href="#" class="menu__link">Sobre mi <img src="../assets/img/flecha-abajo.png" class="menu__arrow" alt="flecha abajo"></a>
         
                         <ul class="menu__nesting">
                             <li class="menu__inside">
@@ -36,7 +37,7 @@
                     </li>
         
                     <li class="menu__item  menu__item--show">
-                        <a href="../pages/servicios.html" class="menu__link">Servicios  <img src="../assets/img/flecha-abajo.png" class="menu__arrow"></a>
+                        <a href="#" class="menu__link">Servicios  <img src="../assets/img/flecha-abajo.png" class="menu__arrow" alt="flecha abajo"></a>
         
                         <ul class="menu__nesting">
                             <li class="menu__inside">
@@ -60,14 +61,14 @@
                 </ul>
     
                 <div class="menu__hamburguer">
-                    <img src="../assets/img/menu.png" class="menu__img">
+                    <img src="../assets/img/menu.png" class="menu__img" alt="icono menu desplegable">
                 </div>
             </section>
     
         </nav>
     </header>
     <main>
-        <section class="servicios__main">
+        <section class="primer__main">
             <div class="principio__main">
                 <h1 class="texto__main">''La inteligencia consiste no sólo en el conocimiento, sino también en la destreza de aplicar los conocimientos en la práctica''</h1>
                 <h2 class="texto__main2">Aristóteles</h2>
@@ -75,28 +76,51 @@
             <div style="height: 150px; overflow: hidden;" class="primer__waves" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C262.08,217.40 378.89,-120.09 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgba(255, 255, 255, 0.486);"></path></svg></div>
         </section>
 
-        <section class="hero__main container">
-            <div class="hero__texts">
-                <h1 class="hero__title">¿Quieres conocer más?</h1>
-                <p class="hero__subtitle">Déjame ayudarte a crecer </p>
-                <a href="#" class="hero__cta">Contrata una sesión</a>
+        <section class="servicios__coaching">
+            <div class="coaching__container">
+                <div class="coaching__text">
+                    <h2 class="coaching__subtitle">Coaching Personal</h2>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/img/coaching-personal1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/coaching-personal2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/coaching-personal3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="coaching__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, exercitationem laborum! Error autem incidunt ex odio ullam accusamus dolorum ratione neque iusto a porro quae, reprehenderit beatae repellat cumque sit, similique explicabo laborum? Nostrum quo velit consectetur impedit reprehenderit aperiam beatae at, incidunt harum. Velit, cum. Hic fuga placeat nam.</p>
+                    <p class="coaching__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates delectus explicabo atque maiores. Fugiat adipisci odio maiores sit enim nemo?</p>
+                    <p class="coaching__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maiores quod quibusdam, aliquid magni sit ducimus architecto nam nemo accusantium.</p>
+                </div>
+
+                <div class="coaching__text">
+                    <h2 class="coaching__subtitle">Coaching Empresarial</h2>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/img/coaching-empresarial1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/coaching-empresarial2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/img/coaching-empresarial3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="coaching__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione amet fuga ipsum molestias id, voluptatibus temporibus sequi architecto. Optio, maxime repellendus. Sit quibusdam nostrum laudantium voluptas optio nemo. Iure incidunt debitis beatae similique vero, ratione exercitationem tempora aperiam repudiandae, dolore in, et alias facilis illum corporis modi non illo! </p>
+                    <p class="coaching__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maiores quod quibusdam, aliquid magni sit ducimus architecto nam nemo accusantium.</p>
+                    <p class="coaching__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio maiores quod quibusdam, aliquid magni sit ducimus architecto nam nemo accusantium.</p>
+                </div>
             </div>
-            <figure class="hero__picture">
-                <img src="../assets/img/servicios-img.jpg" class="hero__img">
-            </figure>
         </section>
 
-        <!-- modal agenda de sesion -->
-        <section class="modal">
-            <div class="modal__container">
-                <img src="../assets/img/objetivo.png" class="modal__img">
-                <h2 class="modal__title">Contrata una sesión</h2>
-                <h3 class="modal__title">Se la mejor versión de ti</h3>
-                <p class="modal__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe minima excepturi in. Veniam voluptates sint suscipit cum, aliquam sapiente! Voluptas obcaecati atque aliquam veritatis.</p>
-                <a href="#" class="modal__close">Agendar</a>
-                <a href="#" class="modal__close2">Solo deseo información</a>
-            </div>
-        </section>
+
 
     </main>
 
@@ -135,5 +159,9 @@
 
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/mh.js"></script>
 </body>
 </html>

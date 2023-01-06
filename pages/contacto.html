@@ -4,9 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <title>Patricia Husni | Master Coacht</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     
+    <header>
+        <nav class="menu">
+            <section class="menu__container">
+                <a href="../index.html"><img class="menu__logo" src="../assets/img/logo-nocover-new.png" class="menu__logo" alt="logo de la empresa"></img></a>
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="../index.html" class="menu__link">Inicio</a>
+                    </li>
+        
+                    <li class="menu__item menu__item--show">
+                        <a href="#" class="menu__link">Sobre mi <img src="../assets/img/flecha-abajo.png" class="menu__arrow" alt="flecha abajo"></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="../pages/sobremi.html" class="menu__link menu__link--inside">Biografia</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="../pages/sobremi.html" class="menu__link menu__link--inside">Testimonios</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="../pages/sobremi.html" class="menu__link menu__link--inside">Clientes</a>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Servicios  <img src="../assets/img/flecha-abajo.png" class="menu__arrow" alt="flecha abajo"></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="../pages/servicios.html" class="menu__link menu__link--inside">Coaching personal y empresarial</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="../pages/servicios.html" class="menu__link menu__link--inside">Coaching de equipos</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="../pages/servicios.html" class="menu__link menu__link--inside">Herramientas/Recursos</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="../pages/articulos.html" class="menu__link">Artículos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="../pages/contacto.html" class="menu__link">Contacto</a>
+                    </li>
+                </ul>
+    
+                <div class="menu__hamburguer">
+                    <img src="../assets/img/menu.png" class="menu__img" alt="icono menu desplegable">
+                </div>
+            </section>
+        </nav>
+
+    </header>
+
+    <main class="main__contacto">
+        <form class="form">
+            <h2 claass="form__title">Contacto</h2>
+            <p class="form__paragraph">Estemos en contacto</p>
+            <div class="form__container">
+
+                <div class="form__group">
+                    <input type="text" id="name" class="form__input" placeholder=" ">
+                    <label for="name" class="form__label">Nombre y Apellido</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <div class="form__group">
+                    <input type="text" id="email" class="form__input" placeholder=" ">
+                    <label for="email" class="form__label">Email</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <div class="form__group">
+                    <input type="text" id="mensaje" class="form__input" placeholder=" ">
+                    <label for="mensaje" class="form__label">Mensaje</label>
+                    <span class="form__line"></span>
+                </div>
+
+                <input type="submit" class="form__submit" value="Enviar">
+
+            </div>
+        </form>
+
+    </main>
+    <footer class="footer">
+        <section class="footer__container">
+
+            <figure class="footer__picture">
+                <img src="../assets/img/logo-nocover-new.png" class="footer__img">
+            </figure>
+
+            <div class="footer__links">
+                <a href="#" class="footer__link">Inicio</a>
+                <a href="../pages/contacto.html" class="footer__link">Contacto</a>
+                <a href="#" class="footer__link">Ubicación</a>
+                <a href="#" class="footer__link">Politicas de privacidad</a>
+            </div>
+
+            <div class="footer__social">
+                <a href="#" class="footer__media">
+                    <img src="../assets/img/facebook.png" class="footer__icon">
+                </a>
+
+                <a href="#" class="footer__media">
+                    <img src="../assets/img/linkedin.png" class="footer__icon">
+                </a>
+
+                <a href="#" class="footer__media">
+                    <img src="../assets/img/gmail.png" class="footer__icon">
+                </a>
+
+                <a href="#" class="footer__media">
+                    <img src="../assets/img/logotipo-de-youtube.png" class="footer__icon">
+                </a>
+
+            </div>
+
+        </section>
+    </footer>
+    <script src="../js/modal.js"></script>
+    <script src="../js/mh.js"></script>
 </body>
 </html>
