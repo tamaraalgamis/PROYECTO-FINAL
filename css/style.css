@@ -67,7 +67,7 @@ body{
 .menu__link{
     color: #fff;
     text-decoration: none;
-    padding: 0 30px;
+    padding: 0 10px;
     display: flex;
     height: 100%;
     align-items: center;
@@ -247,7 +247,7 @@ body{
     display: grid;
     place-items: center;
     grid-auto-columns: 100%;
-    gap: 1em;
+    gap: 10px;
     position: relative;
     transform: var(--transform);
     transition: var(--transition);
@@ -267,14 +267,14 @@ body{
 
 .modal__img{
     width: 90%;
-    max-width: 150px;
+    max-width: 110px;
     display: block;
 }
 
 .modal__close{
     text-decoration: none;
     color: #fff;
-    padding: 15px 50px;
+    padding: 15px 30px;
     border: 1px solid;
     border-radius: 6px;
     display: inline-block;
@@ -286,7 +286,7 @@ body{
 .modal__close2{
     text-decoration: none;
     color: #fff;
-    padding: 15px 50px;
+    padding: 15px 30px;
     border: 1px solid;
     border-radius: 6px;
     display: inline-block;
@@ -833,6 +833,7 @@ min-height: 100vh;
     .menu__links--show{
         transform: unset;
         width: 100%;
+        z-index: 1;
     }
 
     .menu__link{
@@ -876,6 +877,10 @@ min-height: 100vh;
 
     .modal__title h3{
         font-size: 1rem;
+    }
+
+    .modal__img{
+        max-width: 100px;
     }
 
 /*main index*/
@@ -935,22 +940,31 @@ min-height: 100vh;
     }
 
     .footer__img {
-        width: 40%;
+        width: 30%;
     }
 
     .footer__links {
         margin: 0;
         flex-direction: column;
-        gap: 1em;
+        gap: 2em;
         align-items: center;
         flex-wrap: wrap;
-        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .footer__picture{
+        margin: 0;
     }
 
     .footer__link {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
+
+    .principio__main{
+        padding: 50px 50px 0 50px;
+    }
+
 
 }
 
@@ -1158,20 +1172,22 @@ min-height: 100vh;
         
     }
 
+    .footer__picture{
+        margin: 0;
+    }
+
     .footer__img {
-        width: 90%;
+        width: 60%;
     }
     
     .footer__links {
         margin: 0;
         grid-template-rows: auto;
         align-items: center;
-        gap: 1em;
+        gap: 2em;
+        margin-bottom: 50px;
     }
 
-    .footer__link {
-        width: 28%;
-    }
     
     .footer__social{
         display: flex;
