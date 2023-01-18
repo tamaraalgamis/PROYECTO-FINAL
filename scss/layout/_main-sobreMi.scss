@@ -1,0 +1,107 @@
+.bio__grid{
+    width: 100%;
+    padding: 10px;
+    background: hsla(300, 17%, 88%, 0.26);
+    text-align:center justify
+}
+    .principio__bio1{
+        margin-right: 90px;
+        margin-left: 90px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: grid;
+        gap: 2px;
+        align-items: center;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+        "titulo__bio1 bio__img1"
+        "texto__bio1 texto__bio1"
+        "texto__bio2 texto__bio2"
+        "texto__bio3 texto__bio3"
+        "texto__bio4 texto__bio4"
+    }
+        .titulo__bio1 {
+            grid-area: titulo__bio1 ;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: 'Poppins';
+            color: var(--dark-grayish-blue);
+            text-align: end;
+        }
+        .bio__img1{
+            grid-area: bio__img1 ;
+            width: 60px;
+            margin: 0 0 20px 20px;
+        }
+        .texto__bio1{
+            grid-area: texto__bio1 ;
+            font-size: 15px;
+        }
+        .texto__bio2{    
+            grid-area: texto__bio2 ;
+            font-size: 15px;
+        }
+        .texto__bio3{
+            grid-area: texto__bio3 ;
+            font-size: 15px;
+        }
+        .texto__bio4{
+            grid-area: texto__bio4 ;
+            font-size: 15px;
+        }
+    .principio__bio2 {
+        margin-left: 90px;
+        margin-right: 90px;
+        margin-bottom: 20px;
+        display: grid;
+        gap: 2px;
+        align-items: center;
+        grid-template-columns: 55% 45%;
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas:
+        "titulo__bio2 bio__img2"
+        "texto__bio5 texto__bio5"
+        "texto__bio6 texto__bio6"
+        "texto__bio7 texto__bio7"
+        "texto__bio8 texto__bio8"
+        "texto__bio9 texto__bio9"
+        "texto__bio10 texto__bio10"
+    }
+        .titulo__bio2 {
+            grid-area: titulo__bio2 ;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: 'Poppins';
+            color: var(--dark-grayish-blue);
+            text-align: end;
+        }
+        .bio__img2{
+            grid-area: bio__img2 ;
+            width: 60px;
+            margin: 0 0 20px 10px;
+        }
+        .texto__bio5{
+            grid-area: texto__bio5 ;
+            font-size: 15px;
+        }
+        .texto__bio6{
+            grid-area: texto__bio6 ;
+            font-size: 15px;
+        }
+        .texto__bio7{
+            grid-area: texto__bio7 ;
+            font-size: 15px;
+        }
+        .texto__bio8{
+            grid-area: texto__bio8 ;
+            font-size: 15px;
+        }
+        .texto__bio9{
+            grid-area: texto__bio9 ;
+            font-size: 15px;
+        }
+        .texto__bio10{
+            grid-area: texto__bio10 ;
+            font-size: 15px;
+        }
