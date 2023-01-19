@@ -17,13 +17,13 @@
         padding: 30px;
         .coaching__text{
             margin: 10px;
-            font-family: 'Poppins';
             .coaching__subtitle{
-                font-family: 'Poppins';
-                font-size: 30px;
+                font-family: $typo-principal;
+                font-size: 45px;
                 font-weight: 600;
                 text-align: center;
                 color: #5e7094;
+                margin-bottom: 50px;
             }
             
         }
@@ -40,10 +40,10 @@
 }
 
 .coaching__parrafo{
-    font-family: 'Poppins';
+    font-family: $typo-secundaria;
     font-size: 15px;
-    font-weight: 300;
-    text-align: center;
+    font-weight: 400;
+    text-align: justify;
     color: black;
     padding-top: 25px;
 }

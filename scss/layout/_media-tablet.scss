@@ -28,7 +28,7 @@
             top: 70px;
             bottom: 0;
             right: 0;
-            background-color: #000;
+            background-color: $bg-nav;
             overflow-y: auto;
             display: grid;
             grid-auto-rows: max-content;
@@ -37,7 +37,7 @@
     
         .menu__links--show{
             transform: unset;
-            width: 100%;
+            width: 90%;
             z-index: 1;
         }
     
@@ -65,29 +65,24 @@
             width: 90%;
             margin-left: auto;
             border-left: 1px solid #798499;
-        }
-    
-        .menu__link--inside:hover{
-            background-color: #798499;
+            &:hover{
+                background-color: #798499;
+            }
         }
     
         .modal__container{
             padding: 1.5em 1em;
-            
+            .modal__img{
+                max-width: 100px;
+            }
+            .modal__title{
+                font-size: 1rem;
+            }
+            .modal__title2{
+                font-size: 1rem;
+            }
         }
-        
-        .modal__title{
-            font-size: 1rem;
-        }
-    
-        .modal__title h3{
-            font-size: 1rem;
-        }
-    
-        .modal__img{
-            max-width: 100px;
-        }
-    
+
     /*main index*/
         .hero__main{
             grid-template-columns: 1fr;
@@ -130,24 +125,29 @@
     
         .slider__picture{
             grid-row: 1/2;
+            .slider__img{   
+                width: 150px;
+                height: 150px;
+            }
         }
     
-        .slider__img{   
-            width: 150px;
-            height: 150px;
-        }
-    
+    .form{
+        width: 50%;
+    }
     /*footer*/
         .footer__container {
             display: grid;
             align-items: center;
             min-height: 85vh;
+            .footer__picture{
+                margin: 0;
+                .footer__img {
+                    width: 30%;
+                }
+            }
         }
     
-        .footer__img {
-            width: 30%;
-        }
-    
+
         .footer__links {
             margin: 0;
             flex-direction: column;
@@ -155,20 +155,15 @@
             align-items: center;
             flex-wrap: wrap;
             margin-bottom: 30px;
+            .footer__link {
+                width: 100%;
+                font-size: 18px;
+            }
         }
     
-        .footer__picture{
-            margin: 0;
-        }
-    
-        .footer__link {
-            width: 100%;
-            font-size: 18px;
-        }
-    
+
         .principio__main{
             padding: 50px 50px 0 50px;
         }
-    
-    
+
     }
