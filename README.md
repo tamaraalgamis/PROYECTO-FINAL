@@ -2,14 +2,20 @@
 
 Bienvenido a mi página. Te cuento un poco de mí: Eterna estudiante soy Master BusinessCoach y Coach Personal. Actualmente me desempeño como Academic Manager en el Conscious Business Center con Fred Kofman, ex VP de Desarrollo Ejecutivo en LinkedIn , Actual Advisor Leadership Development en Google, y Director del Centro de Liderazgo Consciente del Instituto Tecnológico de Monterrey (TEC). Adicionalmente soy Consultora Independiente en Gestión de Capital Humano y Coach Corporativo ,además de Senior Trainer en Business Coaching School (BCC). Aqui encontraras informacion sobre mi trayectoria, los servicios que brindo, articulos escritos por mi y el contacto para futuros encuentros.
 
+### Herramientas aplicadas en el curso:
+
+1. Html 
+2. CSS 
+4. Bootstrap 
+5. SCSS como pre-procesador
+
 ### Tecnologías que estamos utilizando en el proyecto y su documentación:
 
 1. Html 
 2. CSS 
 3. JavaScript 
 4. Bootstrap 
-5. SASS
-
+5. SCSS como pre-procesador
 
 ###Fases del proyecto
 

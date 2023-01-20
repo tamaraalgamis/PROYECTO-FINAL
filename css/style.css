@@ -737,7 +737,8 @@ body {
     text-align: center; }
   .slider__texts .subtitle {
     font-size: 30px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center; }
   .slider__texts .slider__review {
     font-size: 15px; }
   .slider__arrow {
