@@ -805,8 +805,99 @@ body {
     .slider__picture .slider__img {
       width: 150px;
       height: 150px; }
+  .principio__bio1 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 50px; }
+    .principio__bio1 .titulo__bio1 {
+      font-size: 20px;
+      text-align: center; }
+    .principio__bio1 .texto__bio1 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio1 .texto__bio2 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio1 .texto__bio3 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio1 .texto__bio4 {
+      font-size: 13px;
+      text-align: justify; }
+  .principio__bio2 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px; }
+    .principio__bio2 .titulo__bio2 {
+      font-size: 20px;
+      text-align: center; }
+    .principio__bio2 .texto__bio5 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio2 .texto__bio6 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio2 .texto__bio7 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio2 .texto__bio8 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio2 .texto__bio9 {
+      font-size: 13px;
+      text-align: justify; }
+    .principio__bio2 .texto__bio10 {
+      font-size: 13px;
+      text-align: justify; }
+  .principio__bio3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 400px;
+    gap: 12px;
+    grid-template-rows: 60px 40px 40px; }
+    .principio__bio3 .titulo__bio3 {
+      font-size: 30px; }
+    .principio__bio3 .titulo__principal1 {
+      font-size: 15px;
+      text-align: center; }
+    .principio__bio3 .subtitulo__principal1 {
+      font-size: 10px;
+      text-align: center; }
+    .principio__bio3 .texto__principal1 {
+      font-size: 13px;
+      text-align: center; }
+    .principio__bio3 .titulo__principal2 {
+      font-size: 15px;
+      text-align: center; }
+    .principio__bio3 .subtitulo__principal2 {
+      font-size: 13px;
+      text-align: center; }
+    .principio__bio3 .texto__principal2 {
+      font-size: 13px;
+      text-align: center; }
+    .principio__bio3 .titulo__principal3 {
+      font-size: 15px;
+      text-align: center; }
+    .principio__bio3 .subtitulo__principal3 {
+      font-size: 13px;
+      text-align: center; }
+    .principio__bio3 .texto__principal3 {
+      font-size: 13px;
+      text-align: center; }
   .form {
-    width: 50%; }
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; }
+    .form .form__title {
+      font-size: 30px; }
+    .form .form__paragraph {
+      font-size: 15px; }
+    .form .form__label {
+      font-size: 11px; }
   /*footer*/
   .footer__container {
     display: grid;
@@ -827,7 +918,13 @@ body {
       width: 100%;
       font-size: 18px; }
   .principio__main {
-    padding: 50px 50px 0 50px; } }
+    padding: 50px 50px 0 50px; }
+    .principio__main .texto__main {
+      font-size: 25px;
+      padding-top: 80px; }
+    .principio__main .texto__main2 {
+      font-size: 30px;
+      padding-top: 200px; } }
 
 /*media phone*/
 @media (max-width: 320px) {
@@ -840,7 +937,8 @@ body {
       font-size: 20px;
       padding-top: 20px; }
     .principio__main .texto__main2 {
-      font-size: 30px; }
+      font-size: 30px;
+      padding-top: 0px; }
   /*modal index*/
   .modal__container {
     padding: 2em 1.5em;
@@ -918,59 +1016,14 @@ body {
       .footer .footer__container .footer__social {
         display: flex;
         flex-wrap: wrap; }
-  .principio__bio1 {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 5px;
-    margin-bottom: 50px; }
-    .principio__bio1 .titulo__bio1 {
-      font-size: 20px;
-      text-align: center; }
-    .principio__bio1 .texto__bio1 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio1 .texto__bio2 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio1 .texto__bio3 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio1 .texto__bio4 {
-      font-size: 13px;
-      text-align: justify; }
-  .principio__bio2 {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px; }
-    .principio__bio2 .titulo__bio2 {
-      font-size: 20px;
-      text-align: center; }
-    .principio__bio2 .texto__bio5 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio2 .texto__bio6 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio2 .texto__bio7 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio2 .texto__bio8 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio2 .texto__bio9 {
-      font-size: 13px;
-      text-align: justify; }
-    .principio__bio2 .texto__bio10 {
-      font-size: 13px;
-      text-align: justify; }
   .principio__bio3 {
     margin-left: 20px;
     margin-bottom: 30px;
-    height: 500px;
-    gap: 8px;
-    grid-template-rows: 100px 60px 60px 100px; }
+    height: 400px;
+    gap: 10px;
+    grid-template-rows: 50px 60px 60px; }
     .principio__bio3 .titulo__bio3 {
-      font-size: 40px; }
+      font-size: 30px; }
     .principio__bio3 .titulo__principal1 {
       font-size: 15px;
       text-align: center; }
@@ -978,7 +1031,7 @@ body {
       font-size: 10px;
       text-align: center; }
     .principio__bio3 .texto__principal1 {
-      font-size: 13px;
+      font-size: 12px;
       text-align: center; }
     .principio__bio3 .titulo__principal2 {
       font-size: 15px;
@@ -987,7 +1040,7 @@ body {
       font-size: 13px;
       text-align: center; }
     .principio__bio3 .texto__principal2 {
-      font-size: 13px;
+      font-size: 12px;
       text-align: center; }
     .principio__bio3 .titulo__principal3 {
       font-size: 15px;
@@ -996,7 +1049,7 @@ body {
       font-size: 13px;
       text-align: center; }
     .principio__bio3 .texto__principal3 {
-      font-size: 13px;
+      font-size: 12px;
       text-align: center; }
   .section-articulos .articulos .galeria-art {
     flex-direction: column;

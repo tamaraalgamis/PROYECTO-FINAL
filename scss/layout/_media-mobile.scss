@@ -11,6 +11,7 @@
         }
         .texto__main2{
             font-size: 30px;
+            padding-top: 0px;
         }
     }
 
@@ -126,75 +127,15 @@
         }
     }
 
-    .principio__bio1{
-        margin-right: 30px;
-        margin-left: 30px;
-        margin-top: 5px;
-        margin-bottom: 50px;
-        .titulo__bio1{
-            font-size: 20px;
-            text-align: center;
-        }
-        .texto__bio1{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio2{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio3{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio4{
-            font-size: 13px;
-            text-align: justify ;
-        }
-    }
-
-    .principio__bio2{
-        margin-right: 30px;
-        margin-left: 30px;
-        margin-bottom: 10px;
-        .titulo__bio2{
-            font-size: 20px;
-            text-align: center;
-        }
-        .texto__bio5{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio6{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio7{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio8{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio9{
-            font-size: 13px;
-            text-align: justify ;
-        }
-        .texto__bio10{
-            font-size: 13px;
-            text-align: justify ;
-        }
-    }
 
     .principio__bio3{
         margin-left: 20px;
         margin-bottom: 30px;
-        height: 500px;
-        gap: 8px;
-        grid-template-rows: 100px 60px 60px 100px;
+        height: 400px;
+        gap: 10px;
+        grid-template-rows:50px 60px 60px;
         .titulo__bio3{
-            font-size:40px;
+            font-size:30px;
         }
         .titulo__principal1{
             font-size: 15px;
@@ -205,7 +146,7 @@
             text-align: center ;
         }
         .texto__principal1{
-            font-size: 13px;
+            font-size: 12px;
             text-align: center ;
         }
         .titulo__principal2{
@@ -217,7 +158,7 @@
             text-align: center ;
         }
         .texto__principal2{
-            font-size: 13px;
+            font-size: 12px;
             text-align: center ;
         }
         .titulo__principal3{
@@ -229,7 +170,7 @@
             text-align: center ;
         }
         .texto__principal3{
-            font-size: 13px;
+            font-size: 12px;
             text-align: center ;
         }
     }
