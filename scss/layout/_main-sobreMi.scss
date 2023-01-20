@@ -42,26 +42,19 @@
         }
         .texto__bio2{    
             grid-area: texto__bio2 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio3{
             grid-area: texto__bio3 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio4{
             grid-area: texto__bio4 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
     .principio__bio2 {
-        margin-left: 90px;
-        margin-right: 90px;
-        margin-bottom: 20px;
-        display: grid;
-        gap: 2px;
-        align-items: center;
+        @extend .principio__bio1;
+        margin-top: 0;
         grid-template-columns: 55% 45%;
         grid-template-rows: repeat(7, auto);
         grid-template-areas:
@@ -75,11 +68,7 @@
     }
         .titulo__bio2 {
             grid-area: titulo__bio2 ;
-            font-size: 25px;
-            font-weight: 600;
-            font-family: $typo-principal;
-            color: $gris-oscuro;
-            text-align: end;
+            @extend .titulo__bio1;
         }
         .bio__img2{
             grid-area: bio__img2 ;
@@ -88,41 +77,32 @@
         }
         .texto__bio5{
             grid-area: texto__bio5 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio6{
             grid-area: texto__bio6 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio7{
             grid-area: texto__bio7 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio8{
             grid-area: texto__bio8 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio9{
             grid-area: texto__bio9 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
         .texto__bio10{
             grid-area: texto__bio10 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
+            @extend .texto__bio1;
         }
 
     .principio__bio3 {
+        @extend .principio__bio1;
         margin-top: 80px;
-        margin-left: 90px;
-        margin-right: 90px;
-        margin-bottom: 20px;
-        display: grid;
         gap: 7px;
         align-items: start;
         grid-template-columns: 1fr 1fr 1fr;
@@ -150,17 +130,11 @@
         }
         .titulo__principal2{
             grid-area: titulo__principal2 ;
-            font-size: 20px;
-            font-family: $typo-secundaria;
-            text-align: center;
-            color: $gris-medio;
+            @extend .titulo__principal1;
         }
         .titulo__principal3{
             grid-area: titulo__principal3 ;
-            font-size: 20px;
-            font-family: $typo-secundaria;
-            text-align: center;
-            color: $gris-medio;
+            @extend .titulo__principal1;
         }
         .subtitulo__principal1{
             grid-area: subtitulo__principal1 ;
@@ -171,17 +145,11 @@
         }
         .subtitulo__principal2{
             grid-area: subtitulo__principal2 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
-            text-align: center;
-            color: $gris-claro
+            @extend .subtitulo__principal1;
         }
         .subtitulo__principal3{
             grid-area: subtitulo__principal3 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
-            text-align: center;
-            color: $gris-claro
+            @extend .subtitulo__principal1;
         }
         .texto__principal1{
             grid-area: texto__principal1 ;
@@ -191,13 +159,9 @@
         }
         .texto__principal2{
             grid-area: texto__principal2 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
-            text-align: center;
+            @extend .texto__principal1;
         }
         .texto__principal3{
             grid-area: texto__principal3 ;
-            font-size: 15px;
-            font-family: $typo-secundaria;
-            text-align: center;
+            @extend .texto__principal1;
         }

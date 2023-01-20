@@ -9,7 +9,7 @@
     gap: 2em;
     align-items: center;
     grid-template-rows: 30% 20%;
-    padding: 60px 0 0 0;
+    padding: 90px 30px 0 30px;
     height: 400px;
     .texto__main{
         text-decoration: none;
@@ -19,9 +19,7 @@
         font-weight: 500;
     }
     .texto__main2{
-        text-decoration: none;
-        text-align: center;
-        color: #fff;
+        @extend .texto__main;
         font-size: 2rem;
         font-weight: 600;
     }
@@ -143,15 +141,7 @@
         }
     }
     .modal__close2{
-        text-decoration: none;
-        color: #fff;
-        padding: 15px 30px;
-        border: 1px solid;
-        border-radius: 6px;
-        display: inline-block;
-        font-weight: 500;
-        background-color: $gris-claro;
-        transition: background-color .3s;
+        @extend .modal__close;
         &:hover{
             background-color: #fff;
             color: $gris-medio;
@@ -171,9 +161,7 @@
     margin: 30px 15px;
     background: hsla(218, 27%, 14%, 0.788);
     .articulos{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include flex-art (wrap, center);
         font-family: $typo-principal;
         .titulo__articulos{
             text-decoration: none;
@@ -185,9 +173,7 @@
             font-weight: 500;
         }
         .galeria-art{
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
+            @include flex-art (wrap, space-evenly );
             .imagen-art{
                 width: 24%;
                 margin-bottom: 10px;
@@ -211,10 +197,7 @@
                     transform: scale(0);
                     background: rgba(121, 132, 153, 0.397);
                     transition: transform .5s;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
+                    @include flex-col (center, center, column);
                     p{
                         color: #fff;
                     }
@@ -255,6 +238,7 @@
     grid-template-columns: 1fr max-content;
     align-items: center;
     transition: opacity 1s;
+    gap: 5px;
 } 
 .slider__body--show{
     opacity: 1;
@@ -262,9 +246,11 @@
 }
 .slider__texts{
     max-width: 600px;
+    text-align: justify;
     .subtitle{
         font-size: 2.5rem;
         margin-bottom: 20px;
+        text-align: center;
     }
     .slider__review{
         font-weight: 300;

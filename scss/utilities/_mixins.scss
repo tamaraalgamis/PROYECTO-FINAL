@@ -16,3 +16,16 @@
     align-items: $aling;
     justify-content: $justify;
 }
+
+@mixin flex-col ($aling, $justify, $column){
+    display: flex;
+    align-items: $aling;
+    justify-content: $justify;
+    flex-direction: $column;
+}
+
+@mixin flex-art ($wrap, $justify){
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+}

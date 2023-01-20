@@ -2,16 +2,12 @@
 @media (max-width:320px){
     /*primera section main general*/
     .principio__main{
-        padding: 30px;
-        grid-template-rows: 0.5fr;
         gap: 1.8em;
         .texto__main{
             font-size: 20px;
-            padding-top: 20px;
         }
         .texto__main2{
             font-size: 30px;
-            padding-top: 0px;
         }
     }
 
@@ -175,18 +171,6 @@
         }
     }
 
-
-    .section-articulos{
-        .articulos{
-            .galeria-art{
-                flex-direction: column;
-                align-content: center;
-                .imagen-art{
-                    width: 90%;
-                }
-            }
-        }
-    }
 
     .servicios__coaching{
         margin: 0;
